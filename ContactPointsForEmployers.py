@@ -9,7 +9,7 @@ def get_contact_details(postcode):
 
     api_url_zipcode = "https://kontaktsuche.bih.de/api/post-codes"
     api_url_institutes = "https://kontaktsuche.bih.de/api/v2/institutes"
-    api_key = "YR39qInUOsPpv-IbhpE-cl7--xwblf4PX_TQezxxgQA"
+    api_key = " "
     data_initial_institute_type = "7"
 
     headers_zipcodes = {"X-Auth-Token": api_key, "Content-Type": "application/json"}
